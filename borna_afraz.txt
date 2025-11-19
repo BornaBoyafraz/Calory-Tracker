@@ -1,1 +1,0 @@
-{'user_name': 'borna_afraz', 'Rest Day Calories': 1500, 'Workout Day Calories': 1800, 'Calories Left Rest Day': 880}
