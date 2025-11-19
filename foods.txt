@@ -996,5 +996,3 @@ back_day_meal,310
 fullbody_day_meal,330
 protein_bento_box,260
 
-leen_beaf_steak,500
-sushi,500
