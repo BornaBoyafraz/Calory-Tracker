@@ -29,7 +29,7 @@ foodData = app_state.foodData
 
 #We have the file and we should load it
 # Check if user's data file already exists
-if os.path.exists(file_name):
+if os.path.exists(app_state.user_data_file_path(file_name)):
     # Existing user - load their data and show menu
     typing_functions.type_print("found your file. Loading it...")
     
@@ -74,7 +74,7 @@ else:
         continue_choice = typing_functions.type_input("Do you want to continue? (yes/no): ").strip().lower()
 
         if continue_choice == "yes":
-            Calories_Functions.UserRequest.User_Choice(file_name)  # Go to main menu
+            Calories_Functions.UserRequest.User_Choice()  # Go to main menu
             break  # Exit the while loop
         elif continue_choice == "no":
             Calories_Functions.closing_program()  # Exit the program
